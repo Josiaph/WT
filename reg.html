@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Workshop Registration</title>
+	<style>
+		*{
+			line-height: 30px;
+		}
+
+		.black{
+			width: 100%;
+			padding:30px;
+			text-align: center;
+			background-color:black;
+			color:white;
+		}
+		.footer{
+			width: 100%;
+			padding:20px;
+			text-align: center;
+			background-color:black;
+			color:white;
+		}
+		input{
+			margin-left: 3%;
+
+		}
+		.topnav{
+			text-align: center;
+			background-color: white;
+		}
+		.sign_up-box{ 
+			background-color: white;
+			display: flex;
+			flex-direction: column;
+			width: 500px;
+			border-radius: 16px;
+			padding: 40px;
+			padding-bottom: 20px;
+			margin: auto;
+			box-shadow: 18px 17px 0 rgba(0,0,0,0.15);
+
+		}
+
+
+		.check{
+			padding: 10px;
+			margin-left: 10%;
+		}
+		.center{
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body style="background-color: #EBE2E3">
+
+<div>
+	<header ><img src="https://www.learnacademy.org/wp-content/uploads/2021/04/LEARN_Academy_logo-01.svg" alt="LEARN_Academy_logo" width="300px" height="75px"> </header>
+
+	<div class="topnav">
+		<a href="index.html">Home</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="about.html">About Us</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="services.html">Our Services</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="courses.html">Course</a>
+		&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="contact.html">Contact Us</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+		<a href="reg.html">Workshop Registration</a>
+	</div><br>
+<marquee>Use our Learn Academy coupon on <a href="reg.html">purchase</a> of any courses for minimum 60% OFF! 2 days left! Put your future in a good place. </marquee>
+<h2 class="black">Workshop Registration</h2>
+	<div class="sign_up-box">
+
+<label for="f-name">First Name:<sup style="color: red">*</label>
+<input type="text" name="f-name" placeholder="Jitto" required>	
+
+<label for="l-name">Last Name:<sup style="color: red">* </label>
+<input type="text" name="l-name" placeholder="Thomas" required>
+
+<div >
+		<label for="gen">Gender: </label>
+		<input type="radio" name="gen" >
+		<label for="gen" >Male</label>
+		<input type="radio" name="gen" >
+		<label for="gen">Female</label>
+		<input type="radio" name="gen" >
+		<label for="gen">Other</label>
+</div>
+<label for="birthday">Date of Birth:</label>
+	<input type="date" name="birthday">
+
+
+	<label for="Email">Email Address:<sup style="color: red">*</label>
+	<input type="Email" name="Email" placeholder="xyz@gmail.com" required>
+	<label for="Pasword">Password:<sup style="color: red">*</label>
+	<input type="Password" name="Password" required>
+	
+	<label for="Pasword">Confirm Password:<sup style="color: red">*</label>
+	<input type="Password" name="Confirm Password" required>
+
+
+	
+<br>
+<div >
+<label for="agree" required style="color: red">I accept the Terms of Use & Privacy Policy </label>
+
+<input type="checkbox" name="agree">
+<br><br>
+</div>
+<div class="center">
+<button ><a href="reg2.html" >Submit</a></button></div>
+	
+</div>
+<div class="footer">© Copyright 2021 - by learnacademy</div>
+</body>
+</html>
